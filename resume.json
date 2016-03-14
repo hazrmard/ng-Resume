@@ -1,0 +1,37 @@
+{
+    "personal_info": {
+        "name":     "Ibrahim Ahmed",
+        "email":    "ibrahim.ahmed@vanderbilt.edu",
+        "phone":    "+1 615 879 8864",
+        "website":  "http://iahmned.me",
+        "address":  "2301 Vanderbilt Place"
+    },
+
+    "education":    [
+        {
+            "school":   "Vanderbilt University",
+            "year":     "2016",
+            "degree":   "Bachelors of Engineering",
+            "major":    "Electrical Engineering",
+            "gpa":      "3.70",
+            "courses":  ["FPGA Design", "Modelling and Simulation", "VLSI Design",
+                        "High Performance Computing", "Algorithms", "Microcontrollers",
+                        "Introductory Applied Machine Learning"]
+        },
+        {
+            "school":   "Vanderbilt University",
+            "year":     "2016",
+            "degree":   "Bachelors of Science",
+            "major":    "Physics",
+            "gpa":      "3.70",
+            "courses":  ["Galactic and Stellar Astrophysics", "Modern Physics",
+                        "Quantum Mechanics"]
+        }
+    ],
+
+    "projects":     [],
+
+    "experience":   [],
+
+    "honors":       []
+}
