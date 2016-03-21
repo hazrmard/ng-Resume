@@ -1,0 +1,25 @@
+/* arange experience subheadings */
+.workplace .time {
+    display: inline-block;
+}
+.workplace {
+    float: left;
+}
+.time {
+    float: right
+}
+.experience ul {
+    clear: both;
+}
+
+/* container div for experience links */
+.links div {
+    display: inline-block;
+}
+.link {
+    background-color: #AED6F1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

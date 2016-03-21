@@ -13,25 +13,60 @@
             "year":     "2016",
             "degree":   "Bachelors of Engineering",
             "major":    "Electrical Engineering",
-            "gpa":      "3.70",
+            "gpa":      "5",
             "courses":  ["FPGA Design", "Modelling and Simulation", "VLSI Design",
                         "High Performance Computing", "Algorithms", "Microcontrollers",
-                        "Introductory Applied Machine Learning"]
+                        "Introductory Applied Machine Learning"],
+            "tags":     []
         },
         {
             "school":   "Vanderbilt University",
             "year":     "2016",
             "degree":   "Bachelors of Science",
             "major":    "Physics",
-            "gpa":      "3.70",
+            "gpa":      "5",
             "courses":  ["Galactic and Stellar Astrophysics", "Modern Physics",
-                        "Quantum Mechanics"]
+                        "Quantum Mechanics"],
+            "tags":     []
         }
     ],
 
-    "projects":     [],
+    "experience":     [
+        {
+            "title":        "Research Assistant",
+            "workplace":    "Vanderbilt Department of Physics & Astronomy",
+            "from":         "Sep '15",
+            "to":           "Present",
+            "achievements": ["Design an algorithm to fit dark matter N-body simulation data to ellipsoidal halos.",
+                            "Obtain half mass radii to improve upon the Navarro–Frenk–White (NFW) profile.",
+                            "Incorporate existing code for reading simulation data into a modular and scalable Python class for use in further research."],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/DarkMatterHalos"
+                }],
+            "tags":         ["research", "data analysis"]
+        },
+        {
+            "title":        "Team Leader",
+            "workplace":    "Vanderbilt School of Engineering - Senior Design",
+            "from":         "Sep '15",
+            "to":           "Present",
+            "achievements": ["Develop digital signal processing module in python using GNURadio for RTL software defined radios.",
+                            "Design a satellite tracking antenna using servo motors and 3D printed components.",
+                            "Program an open source real-time trajectory visualization and motor control interface in D3.js, Python, and C via a browser, local server, and Arduino Uno board."],
+            "links":        [],
+            "tags":         []
+        }
+    ],
 
-    "experience":   [],
+    "projects":   [
+        {
+            "title":        "SatTrack",
+            "time":         "Sep '15 - Present",
+            "blurb":        "Tracking satellites in real time.",
+            "description":  "A simple, easy to use library for visualizing satellite paths, predicting future passes, and tracking satellite trakectories using servo motors. Developed for Institute for Space and Defense Electronics - Software Defined Radio (ISDE-SDR) project at Vanderbilt."
+        }
+    ],
 
     "honors":       []
 }

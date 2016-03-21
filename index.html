@@ -1,39 +1,51 @@
 ﻿<!DOCTYPE html>
 <html ng-app=Resume>
 <head>
-	<title>AngularTest</title>
+	<title>Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="./resume.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 	<script src="./resume.js"></script>
 </head>
 
 <body>
-	<div class="container">
-		<p>Enter anything:</p>
-		<input type="text" ng-model="data"/>
-		<p>{{data}}</p>
-	</div>
-	<br>
-	<div class="container" ng-init="list=['asd','fgh','jkl']">
-		<ul>
-			<li ng-repeat="item in list">{{item}}</li>
-		</ul>
-	</div>
-	</br>
-	<div class="container" ng-init="names=['Ibrahim', 'Ibrahim Ahmed', 'Maria', 'Mary' ,'Maria Sadaf',' Moeen','Ibrahim A',	 'Moni', 'Shami', 'Shamama']">
-		<input type="text" ng-model="query"/>
-		<ul>
-			<li ng-repeat="item in names | filter:query">{{item}}</li>
-		</ul>
-	</div>
-	<div ng-controller="resumeController">
-		<div ng-repeat="edu in resumeData.education">
-			{{edu.school}}<br>
-			{{edu.year}}<br>
-			{{edu.degree}}<br>
-			{{edu.major}}<br>
+	<div class="container" id="main" ng-controller="resumeController">
+		<input type="text" ng-model="search"/><br>
+		<div class="h1">Education</div>
+		<div id="education" ng-repeat="edu in resumeData.education | filter:search">
+			<div class="h3">{{edu.degree}} - {{edu.major}}</div>
+			{{edu.school}} ({{edu.year}})<br>
+			<div class="courses" ng-if="edu.courses.length">
+				<div class="h4">Courses:</div>
+				<table class="courses-table"><tr>
+					<td><ul>
+						<li ng-repeat="course in edu.courses" ng-if="$even">{{course}}</li>
+					</ul></td><br>
+					<td><ul>
+						<li ng-repeat="course in edu.courses" ng-if="$odd">{{course}}</li>
+					</ul></td><br>
+				</tr></table>
+			</div>
+		</div>
+
+		<div class="h1">Experience</div>
+		<div class="experience" ng-repeat="exp in resumeData.experience | filter:search">
+			<div class="h3">{{exp.title}}</div>
+			<div class="h4 workplace">{{exp.workplace}}</div>
+			<div class="h4 time">[{{exp.from}}-{{exp.to}}]</div>
 			<ul>
-				<li ng-repeat="course in edu.courses">{{course}}</li>
-			</ul><br>
+				<li ng-repeat="entry in exp.achievements">{{entry}}</li>
+			</ul>
+			<div class="links" ng-if="exp.links.length">
+				<div>Link(s): </div>
+				<div class="link" ng-repeat="link in exp.links"><a href={{link.url}}>{{link.title}}</a></div>
+			</div>
+		</div>
+
+		<div class="h1">Projects</div>
+		<div class="projects" ng-repeat="project in resumeData.projects | filter:search">
+			<div class="h3">{{project.title}}</div>
+			
 		</div>
 	</div>
 </body>
