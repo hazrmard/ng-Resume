@@ -17,7 +17,7 @@
             "courses":  ["FPGA Design", "Modelling and Simulation", "VLSI Design",
                         "High Performance Computing", "Algorithms", "Microcontrollers",
                         "Introductory Applied Machine Learning"],
-            "tags":     []
+            "tags":     ["education"]
         },
         {
             "school":   "Vanderbilt University",
@@ -27,7 +27,7 @@
             "gpa":      "5",
             "courses":  ["Galactic and Stellar Astrophysics", "Modern Physics",
                         "Quantum Mechanics"],
-            "tags":     []
+            "tags":     ["education"]
         }
     ],
 
@@ -35,8 +35,7 @@
         {
             "title":        "Research Assistant",
             "workplace":    "Vanderbilt Department of Physics & Astronomy",
-            "from":         "Sep '15",
-            "to":           "Present",
+            "time":         "Sep '15 - Present",
             "achievements": ["Design an algorithm to fit dark matter N-body simulation data to ellipsoidal halos.",
                             "Obtain half mass radii to improve upon the Navarro–Frenk–White (NFW) profile.",
                             "Incorporate existing code for reading simulation data into a modular and scalable Python class for use in further research."],
@@ -45,19 +44,54 @@
                 "title":    "GitHub",
                 "url":      "https://github.com/hazrmard/DarkMatterHalos"
                 }],
-            "tags":         ["research", "data analysis", "open source"]
+            "tags":         ["research", "data analysis", "open source", "experience"]
         },
         {
             "title":        "Team Leader",
             "workplace":    "Vanderbilt School of Engineering - Senior Design",
-            "from":         "Sep '15",
-            "to":           "Present",
+            "time":         "Sep '15 - Present",
             "achievements": ["Develop digital signal processing module in python using GNURadio for RTL software defined radios.",
                             "Design a satellite tracking antenna using servo motors and 3D printed components.",
                             "Program a real-time trajectory visualization and motor control interface in D3.js, Python, and C via a browser, local server, and Arduino Uno board."],
             "technologies": ["Linux", "Raspberry Pi", "Arduino", "GNURadio", "Python", "HTML/CSS", "Javascript"],
             "links":        [],
-            "tags":         []
+            "tags":         ["experience"]
+        },
+        {
+            "title":        "Business Intelligence Intern",
+            "workplace":    "Schneider Electric",
+            "time":         "Jun '15 - Aug '15'",
+            "achievements": ["Wrote SQL query backwards compatible with SQL Server 2005 to consolidate 40 million records into 1.5 million records with no data loss.",
+                            "Developed and documented a python module to resolve record timing conflicts in SQL joins. Integrated with main data workflow in Alteryx.",
+                            "Designed and scripted data visualizations in Domo to serve location specific content to sales managers all over continental US.",
+                            "Programmed a SQL procedure to take selective backups monthly that reduced backup size by 75%."],
+            "technologies": ["T-SQL", "Alteryx", "Domo", "Python"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/ResolveDateConflict"
+                }],
+            "tags":         ["experience", "analytics"]
+        },
+        {
+            "title":        "Student Helpdesk Assistant",
+            "workplace":    "Vanderbilt University IT",
+            "time":         "Aug '13 - Jun '15",
+            "achievements": ["Diagnosed and troubleshot computer, smartphone, and campus wide IT issues.",
+                            "Recovered $3000 worth of accidentally deleted data from hard drives.",
+                            "Assisted students in setting up course-specific applications on their computers."],
+            "technologies": ["Windows", "Mac OS X", "Linux"],
+            "links":        [],
+            "tags":         ["experience", "customer service", "consulting"]
+        },
+        {
+            "title":        "Research Intern",
+            "workplace":    "Vanderbilt University School of Engineering",
+            "time":         "Jun '14 - Aug '14",
+            "achievements": ["Studied sources of radiation induced errors and programmed an Altera DE2 FPGA board to test SRAM chips for soft errors after irradiation.",
+                            "Wrote documentation and designed schematics for researchers at the Institute of Space and Defense Electronics."],
+            "technologies": ["VHDL"],
+            "links":        [],
+            "tags":         ["experience", "research"]
         }
     ],
 
@@ -76,7 +110,7 @@
                     "title":    "Google Play",
                     "url":      "https://play.google.com/store/apps/details?id=me.iahmed.til"
                     }],
-            "tags":         ["open source"]
+            "tags":         ["open source projects"]
         },
         {
             "title":        "SatTrack",
@@ -88,9 +122,39 @@
                 "title":    "GitHub",
                 "url":      "https://github.com/hazrmard/SatTrack"
                 }],
-            "tags":         ["open source"]
+            "tags":         ["open source projects"]
         }
     ],
 
-    "honors":       []
+    "extracurriculars": [
+        {
+            "title":        "Resident Advisor",
+            "time":         "Aug '15 - Present",
+            "description":  ["Oversee administrative floor activities in Lewis Hall.",
+                            "Support 60 residents with academic and personal issues.",
+                            "Collaborate with other Resident Advisors to create a friendly atmosphere for student residents.",
+                            "Arrange recreational and educational activities with students."],
+            "details":      "",
+            "links":        [],
+            "tags":         []
+        }
+    ],
+
+    "honors":       [
+        {
+            "title":        "Dean's List",
+            "details":      "Fall '12, '14, '15, Spring '13, '14, '15",
+            "tags":         ["honors"]
+        },
+        {
+            "title":        "Honorable Mention",
+            "details":      "International Physics Olympiad '11",
+            "tags":         ["honors"]
+        },
+        {
+            "title":        "Sigma Pi Sigma",
+            "details":      "Society of Physics Students",
+            "tags":         ["honors"]
+        }
+    ]
 }

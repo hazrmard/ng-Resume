@@ -10,7 +10,7 @@
 
 <body>
 	<div class="container" id="main" ng-controller="resumeController">
-		<input type="text" ng-model="search"/><br>
+		<input type="text" autofocus="autofocus" ng-model="search"/><br>
 		<div class="h1" ng-show="edus.length">Education</div>
 		<div id="education" ng-repeat="edu in edus = (resumeData.education | filter:search)">
 			<div class="h3">{{edu.degree}} - {{edu.major}}</div>
@@ -32,16 +32,16 @@
 		<div class="experience" ng-repeat="exp in exps = (resumeData.experience | filter:search)">
 			<div class="h3 title">{{exp.title}}</div>
 			<div class="h4 workplace">{{exp.workplace}}</div>
-			<div class="h4 time">{{exp.from}} - {{exp.to}}</div>
+			<div class="h4 time">{{exp.time}}</div>
 			<div class="content"><ul>
 				<li ng-repeat="entry in exp.achievements">{{entry}}</li>
 			</ul></div>
 			<div class="links" ng-if="exp.links.length">
-				<div>Link(s): </div>
+				<div class="subheading">Link(s): </div>
 				<div class="link" ng-repeat="link in exp.links"><a href={{link.url}}>{{link.title}}</a></div>
 			</div>
 			<div class="technologies" ng-if="exp.technologies.length">
-				<div>Technology: </div>
+				<div class="subheading">Technology: </div>
 				<div class="tech" ng-repeat="tech in exp.technologies">{{tech}}</div>
 			</div>
 		</div>
@@ -53,13 +53,34 @@
 			<div class="blurb content" ng-if="project.blurb.length">{{project.blurb}}</div>
 			<div class="content" ng-if="project.description.length">{{project.description}}</div>
 			<div class="links" ng-if="project.links.length">
-				<div>Link(s): </div>
+				<div class="subheading">Link(s): </div>
 				<div class="link" ng-repeat="link in project.links"><a href={{link.url}}>{{link.title}}</a></div>
 			</div>
 			<div class="technologies" ng-if="project.technologies.length">
-				<div>Technology: </div>
+				<div class="subheading">Technology: </div>
 				<div class="tech" ng-repeat="tech in project.technologies">{{tech}}</div>
 			</div>
+		</div>
+
+		<div class="h1" ng-show="extracurriculars.length">Extracurriculars</div>
+		<div class="extracurriculars" ng-repeat="extra in extracurriculars = (resumeData.extracurriculars | filter:search)">
+			<div class="h3 title">{{extra.title}}</div>
+			<div class="h4 time" ng-if="extra.time.length">{{extra.time}}</div>
+			<div class="content" ng-if="extra.description.length"><ul>
+				<li ng-repeat="item in extra.description">{{item}}</li>
+			</ul>
+				{{extra.details}}
+			</div>
+			<div class="links" ng-if="extra.links.length">
+				<div class="subheading">Link(s): </div>
+				<div class="link" ng-repeat="link in extra.links"><a href={{link.url}}>{{link.title}}</a></div>
+			</div>
+		</div>
+
+		<div class="h1" ng-show="honors.length">Honors</div>
+		<div class="honors" ng-repeat="honor in honors = (resumeData.honors | filter:search)">
+			<div class="h3">{{honor.title}}</div>
+			<div class="content blurb">{{honor.details}}</div>
 		</div>
 	</div>
 </body>

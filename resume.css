@@ -6,6 +6,16 @@
 div {
     margin-bottom: 0.5em;
 }
+.h3, .h4 {
+    margin-top: 10px;
+}
+.container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.experience, .projects, .extracurriculars {
+    margin-bottom: 1em;
+}
 
 /* education elements */
 .subheading {
@@ -19,11 +29,11 @@ div {
 .workplace, .time, .links div, .technologies div {
     display: inline-block;
 }
-.workplace, .projects .title {
+.workplace, .projects .title, .extracurriculars .title {
     float: left;
 }
 .time {
-    float: right
+    float: right;
 }
 .content {
     clear: both;
@@ -34,6 +44,7 @@ div {
     margin-right: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    border-radius: 10%;
 }
 
 /* project content */
@@ -46,4 +57,5 @@ div {
     margin-right: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    border-radius: 10%;
 }
