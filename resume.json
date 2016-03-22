@@ -40,11 +40,12 @@
             "achievements": ["Design an algorithm to fit dark matter N-body simulation data to ellipsoidal halos.",
                             "Obtain half mass radii to improve upon the Navarro–Frenk–White (NFW) profile.",
                             "Incorporate existing code for reading simulation data into a modular and scalable Python class for use in further research."],
+            "technologies": ["Python"],
             "links":        [{
                 "title":    "GitHub",
                 "url":      "https://github.com/hazrmard/DarkMatterHalos"
                 }],
-            "tags":         ["research", "data analysis"]
+            "tags":         ["research", "data analysis", "open source"]
         },
         {
             "title":        "Team Leader",
@@ -53,7 +54,8 @@
             "to":           "Present",
             "achievements": ["Develop digital signal processing module in python using GNURadio for RTL software defined radios.",
                             "Design a satellite tracking antenna using servo motors and 3D printed components.",
-                            "Program an open source real-time trajectory visualization and motor control interface in D3.js, Python, and C via a browser, local server, and Arduino Uno board."],
+                            "Program a real-time trajectory visualization and motor control interface in D3.js, Python, and C via a browser, local server, and Arduino Uno board."],
+            "technologies": ["Linux", "Raspberry Pi", "Arduino", "GNURadio", "Python", "HTML/CSS", "Javascript"],
             "links":        [],
             "tags":         []
         }
@@ -61,10 +63,32 @@
 
     "projects":   [
         {
+            "title":        "TIL - Today I Learned",
+            "time":         "Feb '16 - Mar '16",
+            "blurb":        "Learn interesting tidbits from Reddit.",
+            "description":  "An android application that parses /r/TodayILearned on Reddit for interesting facts based on user preferences. It has day/night mode, sharing, and further reading options. All content is accessed after getting OAuth2 tokens. Non-UI operations are executed on background threads.",
+            "technologies": ["Java", "Android", "OAuth2"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/TIL"
+                },
+                {
+                    "title":    "Google Play",
+                    "url":      "https://play.google.com/store/apps/details?id=me.iahmed.til"
+                    }],
+            "tags":         ["open source"]
+        },
+        {
             "title":        "SatTrack",
             "time":         "Sep '15 - Present",
             "blurb":        "Tracking satellites in real time.",
-            "description":  "A simple, easy to use library for visualizing satellite paths, predicting future passes, and tracking satellite trakectories using servo motors. Developed for Institute for Space and Defense Electronics - Software Defined Radio (ISDE-SDR) project at Vanderbilt."
+            "description":  "A simple, easy to use library for visualizing satellite paths, predicting future passes, and tracking satellite trajectories using servo motors. Developed for Institute for Space and Defense Electronics - Software Defined Radio (ISDE-SDR) project at Vanderbilt.",
+            "technologies": ["Python", "Javascript", "jQuery", "D3.js", "HTML/CSS", "Arduino"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/SatTrack"
+                }],
+            "tags":         ["open source"]
         }
     ],
 

@@ -1,23 +1,47 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+div {
+    margin-bottom: 0.5em;
+}
+
+/* education elements */
+.subheading {
+    font-weight: bold;
+}
+.h3 {
+    margin-bottom: 0px;
+}
+
 /* arange experience subheadings */
-.workplace .time {
+.workplace, .time, .links div, .technologies div {
     display: inline-block;
 }
-.workplace {
+.workplace, .projects .title {
     float: left;
 }
 .time {
     float: right
 }
-.experience ul {
+.content {
     clear: both;
-}
-
-/* container div for experience links */
-.links div {
-    display: inline-block;
 }
 .link {
     background-color: #AED6F1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* project content */
+.blurb {
+    font-style: italic;
+}
+.tech {
+    background-color: #BB8FCE;
     margin-left: 0.5em;
     margin-right: 0.5em;
     padding-left: 0.5em;
