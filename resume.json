@@ -153,6 +153,33 @@
                 "url":      "https://github.com/hazrmard/SatTrack"
                 }],
             "tags":         ["open source", "projects"]
+        },{
+            "title":        "PersonalizedGroupMail",
+            "time":         "Oct '15",
+            "blurb":        "Send personalized batch messages.",
+            "description":  "An easy to use class for sending out a batch email with personalized greetings to increase audience engagement. Recipient data can either be entered programmatically or imported from a csv file. Plain text and HTML formatted emails are supported. Made as a side project for my Resident Advisor duties.",
+            "technologies": ["Python"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/PersonalizedGroupMail"
+                }],
+            "tags":         ["open source", "projects"]
+        },
+        {
+            "title":        "VandySays",
+            "time":         "Sep '15",
+            "blurb":        "Get tips for a better day.",
+            "description":  "A web app with Google Forms at the back end hosted on Github Pages. Intended to display news/tips uploaded by Resident Advisors to students. All entries come with an expiration date. Can be adapted for any Google Form.",
+            "technologies": ["Javascript", "jQuery","HTML/CSS"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/VandySays"
+                },
+                {
+                    "title":    "GitHub Pages",
+                    "url":      "http://hazrmard.github.io/VandySays/"
+                    }],
+            "tags":         ["open source", "projects"]
         },
         {
             "title":        "project:UNIVERSE",
@@ -169,6 +196,54 @@
                     "url":      "https://sourceforge.net/projects/abmuniverse/files/UNIVERSE.pdf/download"
                     }],
             "tags":         ["open source", "projects", "simulation", "physics"]
+        },
+        {
+            "title":        "WebWeb",
+            "time":         "Jul '15",
+            "blurb":        "Mapping links to a site.",
+            "description":  "A web app that uses Yahoo Query Language to parse web pages for hyperlinks. Parsed links are displayed in a dynamically created table.",
+            "technologies": ["jQuery", "HTML/CSS", "YQL"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/WebWeb"
+                },
+                {
+                    "title":    "iahmed.me",
+                    "url":      "http://lab.iahmed.me/WebWeb"
+                    }],
+            "tags":         ["open source", "projects", "javascript"]
+        },
+        {
+            "title":        "eventbrite",
+            "time":         "Mar '15 - Feb '16'",
+            "blurb":        "Learning new web technologies.",
+            "description":  "A demonstrator for new web technologies that I learned using eventbrite.com's API: A choropleth of events in the US by state, and a Django app for searching and browsing events by category, location, and keywords.",
+            "technologies": ["D3.js", "HTML/CSS", "Django"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/eventbrite"
+                },
+                {
+                    "title":    "iahmed.me",
+                    "url":      "http://iahmed.me/eventbrite"
+                },
+                {
+                    "title":    "Python Anywhere",
+                    "url":      "http://hazrmard.pythonanywhere.com"
+                    }],
+            "tags":         ["open source", "projects", "javascript", "visualization"]
+        },
+        {
+            "title":        "imgurPCA",
+            "time":         "Feb '15 - Present",
+            "blurb":        "Machine learning on imgur.com",
+            "description":  "Parsing comments on imgur.com for principal component analysis. Parsed comments are pre-processed for feature selection before being passed for analysis and later clustering.",
+            "technologies": ["Python", "Numpy"],
+            "links":        [{
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard/imgurPCA"
+                }],
+            "tags":         ["open source", "projects"]
         }
     ],
 
@@ -180,6 +255,33 @@
                             "Support 60 residents with academic and personal issues.",
                             "Collaborate with other Resident Advisors to create a friendly atmosphere for student residents.",
                             "Arrange recreational and educational activities with students."],
+            "details":      "",
+            "links":        [],
+            "tags":         []
+        },
+        {
+            "title":        "Mentor and Technical Specialist - Vanderbilt Design Studio",
+            "time":         "Jan '15 - Present",
+            "description":  ["Maintain and repair 3D printers, electronics, and tools at the Design Studio.",
+                            "Assist users in design process with Makerbot Desktop and Autodesk 123D Design."],
+            "details":      "",
+            "links":        [],
+            "tags":         []
+        },
+        {
+            "title":        "AcFee Subcommittee for Cultural Organizations",
+            "time":         "Jan '15 - MAy '15",
+            "description":  ["Reviewed campus organizations’ annual applications for funding.",
+                            "Allocated $218,000 from university funds to 43 organizations based on performance analyses."],
+            "details":      "",
+            "links":        [],
+            "tags":         []
+        },
+        {
+            "title":        "Vanderbilt Student Volunteers for Science",
+            "time":         "Jan '14 - MAy '14",
+            "description":  ["Received training for teaching science subjects to middle school students",
+                            "Taught robotics using Lego Mindstorms to 8th graders in Nashville over several sessions."],
             "details":      "",
             "links":        [],
             "tags":         []
