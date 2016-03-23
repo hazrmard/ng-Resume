@@ -39,7 +39,7 @@
             "achievements": ["Design an algorithm to fit dark matter N-body simulation data to ellipsoidal halos.",
                             "Obtain half mass radii to improve upon the Navarro–Frenk–White (NFW) profile.",
                             "Incorporate existing code for reading simulation data into a modular and scalable Python class for use in further research."],
-            "technologies": ["Python"],
+            "technologies": ["Python", "Matplotlib", "Numpy"],
             "links":        [{
                 "title":    "GitHub",
                 "url":      "https://github.com/hazrmard/DarkMatterHalos"
@@ -60,7 +60,7 @@
         {
             "title":        "Business Intelligence Intern",
             "workplace":    "Schneider Electric",
-            "time":         "Jun '15 - Aug '15'",
+            "time":         "Jun '15 - Aug '15",
             "achievements": ["Wrote SQL query backwards compatible with SQL Server 2005 to consolidate 40 million records into 1.5 million records with no data loss.",
                             "Developed and documented a python module to resolve record timing conflicts in SQL joins. Integrated with main data workflow in Alteryx.",
                             "Designed and scripted data visualizations in Domo to serve location specific content to sales managers all over continental US.",
@@ -92,6 +92,20 @@
             "technologies": ["VHDL"],
             "links":        [],
             "tags":         ["experience", "research"]
+        },
+        {
+            "title":        "Instructor",
+            "workplace":    "Android Application Development Workshop - NUST, Pakistan",
+            "time":         "Jun '13",
+            "achievements": ["Proposed and organized a week-long workshop attended by 40 professionals and graduate and undergraduate students.",
+                            "Taught basic application development skills for Android using MIT AppInventor to attendees with diverse technical skillsets.",
+                            "Mentored teams for final day projects and provided one-on-one guidance."],
+            "technologies": ["MIT AppInventor"],
+            "links":        [{
+                "title":    "NUST.edu.pk",
+                "url":      "http://www.nust.edu.pk/INSTITUTIONS/Schools/SEECS/News/Pages/Workshop-on-Android-Programming.aspx"
+                }],
+            "tags":         ["experience", "teaching"]
         }
     ],
 
@@ -122,7 +136,23 @@
                 "title":    "GitHub",
                 "url":      "https://github.com/hazrmard/SatTrack"
                 }],
-            "tags":         ["open source projects"]
+            "tags":         ["open source", "projects"]
+        },
+        {
+            "title":        "project:UNIVERSE",
+            "time":         "Mar '15 - Apr'15",
+            "blurb":        "Lots of alien spaceships.",
+            "description":  "Acronym for: Ultra Nice Implementation of Various Entities Roaming Space Existentially. An agent based model of population dynamics in the galaxy. It simulates 4 space faring civilizations each with individual characteristics exploring planets to accumulate resources. Variables tracked are resources, population, trade, technology, and wars.",
+            "technologies": ["NetLogo"],
+            "links":        [{
+                "title":    "Sourceforge",
+                "url":      "https://sourceforge.net/projects/abmuniverse/"
+                },
+                {
+                    "title":    "Documentation",
+                    "url":      "https://sourceforge.net/projects/abmuniverse/files/UNIVERSE.pdf/download"
+                    }],
+            "tags":         ["open source", "projects", "simulation", "physics"]
         }
     ],
 
