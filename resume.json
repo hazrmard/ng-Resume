@@ -3,8 +3,24 @@
         "name":     "Ibrahim Ahmed",
         "email":    "ibrahim.ahmed@vanderbilt.edu",
         "phone":    "+1 615 879 8864",
-        "website":  "http://iahmned.me",
-        "address":  "2301 Vanderbilt Place"
+        "links":  [
+            {
+                "title":    "Home",
+                "url":      "http://iahmed.me"
+            },
+            {
+                "title":    "GitHub",
+                "url":      "https://github.com/hazrmard"
+            },
+            {
+                "title":    "LinkedIn",
+                "url":      "https://linkedin.com/in/ibrahimahmed1"
+            },
+            {
+                "title":    "StackOverflow",
+                "url":      "http://stackoverflow.com/users/4591810/hazrmard"
+            }
+        ]
     },
 
     "education":    [

@@ -16,15 +16,32 @@ div {
 .section {
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: #FDFEFE;
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
-.h3, .h4 {
-    margin-top: 10px;
+.head {
+    text-align: center;
+    width: 100%;
+}
+.subsection {
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top: 1px solid #CACFD2;
+}
+.section .h1 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.h3, .projects .h4, .extracurriculars .h4 {
+    margin-top: 0.5em;
+}
+.h4 {
+    margin-top: 0em;
 }
 
-/* education elements */
+
 .subheading {
     font-weight: bold;
 }
@@ -35,7 +52,7 @@ div {
     border: none !important;
 }
 
-/* arange experience subheadings */
+
 .workplace, .time, .links div, .technologies div {
     display: inline-block;
 }

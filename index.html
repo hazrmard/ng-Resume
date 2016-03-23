@@ -10,15 +10,28 @@
 
 <body>
 	<div class="container" id="main" ng-controller="resumeController">
-		<input type="text" autofocus="autofocus" ng-model="search"/><br>
+		<input type="text" autofocus="autofocus" placeholder="Search resume" ng-model="search"/><br>
+
+		<div class="section head">
+			<div class="h1">{{resumeData.personal_info.name}}</div>
+			<div class="subheading" ng-if="resumeData.personal_info.email.length">{{resumeData.personal_info.email}}</div>
+			<div class="subheading" ng-if="resumeData.personal_info.phone.length">{{resumeData.personal_info.phone}}</div>
+			<div class="links" ng-if="resumeData.personal_info.links.length">
+				<div class="link" ng-repeat="link in resumeData.personal_info.links">
+					<a href={{link.url}}>{{link.title}}</a>
+				</div>
+			</div>
+		</div>
+
 		<div class="section" ng-show="edus.length">
 			<div class="h1">Education</div>
-			<div class="education" ng-repeat="edu in edus = (resumeData.education | filter:search | lowercase)">
+			<div class="education subsection" ng-repeat="edu in edus = (resumeData.education | filter:search | lowercase)">
 				<div class="h3">{{edu.degree}} - {{edu.major}}</div>
-				{{edu.school}} ({{edu.year}})<br>
+				<div class="h4 workplace">{{edu.school}}</div>
+				<div class="h4 time">{{edu.year}}</div>
 				<div class="courses" ng-if="edu.courses.length">
-					<div class="subheading">Courses:</div>
-					<table class="courses-table table"><tr>
+					<div class="subheading content">Courses:</div>
+					<table class="courses-table table content"><tr>
 						<td class="col-md-3"><ul>
 							<li ng-repeat="course in edu.courses" ng-if="$even">{{course}}</li>
 						</ul></td>
@@ -32,7 +45,7 @@
 
 		<div class="section" ng-show="exps.length">
 			<div class="h1">Experience</div>
-			<div class="experience" ng-repeat="exp in exps = (resumeData.experience | filter:search | lowercase)">
+			<div class="experience subsection" ng-repeat="exp in exps = (resumeData.experience | filter:search | lowercase)">
 				<div class="h3 title">{{exp.title}}</div>
 				<div class="h4 workplace">{{exp.workplace}}</div>
 				<div class="h4 time">{{exp.time}}</div>
@@ -52,7 +65,7 @@
 
 		<div class="section" ng-show="projects.length">
 			<div class="h1">Projects</div>
-			<div class="projects" ng-repeat="project in projects = (resumeData.projects | filter:search | lowercase)">
+			<div class="projects subsection" ng-repeat="project in projects = (resumeData.projects | filter:search | lowercase)">
 				<div class="h3 title">{{project.title}}</div>
 				<div class="h4 time" ng-if="project.time.length">{{project.time}}</div>
 				<div class="blurb content" ng-if="project.blurb.length">{{project.blurb}}</div>
@@ -70,7 +83,7 @@
 
 		<div class="section" ng-show="extracurriculars.length">
 			<div class="h1">Extracurriculars</div>
-			<div class="extracurriculars" ng-repeat="extra in extracurriculars = (resumeData.extracurriculars | filter:search | lowercase)">
+			<div class="extracurriculars subsection" ng-repeat="extra in extracurriculars = (resumeData.extracurriculars | filter:search | lowercase)">
 				<div class="h3 title">{{extra.title}}</div>
 				<div class="h4 time" ng-if="extra.time.length">{{extra.time}}</div>
 				<div class="content" ng-if="extra.description.length"><ul>
@@ -87,7 +100,7 @@
 
 		<div class="section" ng-show="honors.length">
 			<div class="h1">Honors</div>
-			<div class="honors" ng-repeat="honor in honors = (resumeData.honors | filter:search | lowercase)">
+			<div class="honors subsection" ng-repeat="honor in honors = (resumeData.honors | filter:search | lowercase)">
 				<div class="h3">{{honor.title}}</div>
 				<div class="content blurb">{{honor.details}}</div>
 			</div>
