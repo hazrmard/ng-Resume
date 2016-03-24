@@ -247,6 +247,17 @@
         }
     ],
 
+    "skills":   [
+        {
+            "title":        "Programming",
+            "skills":       ["C", "C++", "Python (Numpy, Django, Matplotlib)", "Java", "Android", "JavaScript (D3.js, AngularJS, jQuery)", "HTML", "CSS (Bootstrap)", "Git"]
+        },
+        {
+            "title":        "Engineering",
+            "skills":       ["VHDL", "MatLab", "Mathematica", "Cadence", "LTSpice"]
+        }
+    ],
+
     "extracurriculars": [
         {
             "title":        "Resident Advisor",
@@ -270,7 +281,7 @@
         },
         {
             "title":        "AcFee Subcommittee for Cultural Organizations",
-            "time":         "Jan '15 - MAy '15",
+            "time":         "Jan '15 - May '15",
             "description":  ["Reviewed campus organizations’ annual applications for funding.",
                             "Allocated $218,000 from university funds to 43 organizations based on performance analyses."],
             "details":      "",
@@ -279,7 +290,7 @@
         },
         {
             "title":        "Vanderbilt Student Volunteers for Science",
-            "time":         "Jan '14 - MAy '14",
+            "time":         "Jan '14 - May '14",
             "description":  ["Received training for teaching science subjects to middle school students",
                             "Taught robotics using Lego Mindstorms to 8th graders in Nashville over several sessions."],
             "details":      "",

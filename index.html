@@ -81,6 +81,17 @@
 			</div>
 		</div>
 
+		<div class="section" ng-show="skillsets.length">
+			<div class="h1">Skills</div>
+			<div class="skills subsection" ng-repeat="skillset in skillsets = (resumeData.skills | filter:search | lowercase)" ng-if="(skillset.skills | filter:search | lowercase).length">
+				<div class="h3">{{skillset.title}}</div>
+				<div class="technologies">
+					<div class="tech h4" ng-repeat="skill in skills = (skillset.skills | filter:search | lowercase)">
+						{{skill}}</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="section" ng-show="extracurriculars.length">
 			<div class="h1">Extracurriculars</div>
 			<div class="extracurriculars subsection" ng-repeat="extra in extracurriculars = (resumeData.extracurriculars | filter:search | lowercase)">
