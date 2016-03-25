@@ -27,7 +27,8 @@
 			<div class="h1">Education</div>
 			<div class="education subsection" ng-repeat="edu in edus = (resumeData.education | filter:search | lowercase)">
 				<div class="h3">{{edu.degree}} - {{edu.major}}</div>
-				<div class="h4 workplace">{{edu.school}}</div>
+				<div class="h4 workplace links">{{edu.school}}&nbsp;</div>
+				<div class="h4 workplace links" ng-if="edu.gpa.length"> - GPA: {{edu.gpa}}</div>
 				<div class="h4 time">{{edu.year}}</div>
 				<div class="courses" ng-if="edu.courses.length">
 					<div class="subheading content">Courses:</div>
@@ -40,6 +41,7 @@
 						</ul></td>
 					</tr></table>
 				</div>
+				<br ng-if="!edu.courses.length">
 			</div>
 		</div>
 
@@ -97,7 +99,7 @@
 			<div class="extracurriculars subsection" ng-repeat="extra in extracurriculars = (resumeData.extracurriculars | filter:search | lowercase)">
 				<div class="h3 title">{{extra.title}}</div>
 				<div class="h4 time" ng-if="extra.time.length">{{extra.time}}</div>
-				<div class="content" ng-if="extra.description.length"><ul>
+				<div class="content" ng-if="extra.description.length || extra.details.length"><ul>
 					<li ng-repeat="item in extra.description">{{item}}</li>
 				</ul>
 					{{extra.details}}

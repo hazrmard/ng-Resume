@@ -1,319 +1,164 @@
 {
     "personal_info": {
-        "name":     "Ibrahim Ahmed",
-        "email":    "ibrahim.ahmed@vanderbilt.edu",
-        "phone":    "+1 615 879 8864",
+        "name":     "Kaladin Stormblessed",
+        "email":    "kaladin@knightsradiant.com",
+        "phone":    "+4 567 123 890",
         "links":  [
             {
                 "title":    "Home",
-                "url":      "http://iahmed.me"
+                "url":      "http://www.example.com"
             },
             {
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard"
+                "title":    "Spellwork",
+                "url":      "http://www.example.com"
             },
             {
-                "title":    "LinkedIn",
-                "url":      "https://linkedin.com/in/ibrahimahmed1"
-            },
-            {
-                "title":    "StackOverflow",
-                "url":      "http://stackoverflow.com/users/4591810/hazrmard"
+                "title":    "Shards",
+                "url":      "https://www.example.com"
             }
         ]
     },
 
     "education":    [
         {
-            "school":   "Vanderbilt University",
-            "year":     "2016",
-            "degree":   "Bachelors of Engineering",
-            "major":    "Electrical Engineering",
-            "gpa":      "5",
-            "courses":  ["FPGA Design", "Modelling and Simulation", "VLSI Design",
-                        "High Performance Computing", "Algorithms", "Microcontrollers",
-                        "Introductory Applied Machine Learning"],
-            "tags":     ["education"]
-        },
-        {
-            "school":   "Vanderbilt University",
-            "year":     "2016",
-            "degree":   "Bachelors of Science",
-            "major":    "Physics",
-            "gpa":      "5",
-            "courses":  ["Galactic and Stellar Astrophysics", "Modern Physics",
-                        "Quantum Mechanics"],
+            "school":   "Village Clinic",
+            "year":     "4500",
+            "degree":   "Apprenticeship",
+            "major":    "Medicine",
+            "gpa":      "4/7",
+            "courses":  ["First Aid", "Amputation", "Herbs", "Potions", "Balms"],
             "tags":     ["education"]
         }
     ],
 
     "experience":     [
         {
-            "title":        "Research Assistant",
-            "workplace":    "Vanderbilt Department of Physics & Astronomy",
-            "time":         "Sep '15 - Present",
-            "achievements": ["Design an algorithm to fit dark matter N-body simulation data to ellipsoidal halos.",
-                            "Obtain half mass radii to improve upon the Navarro–Frenk–White (NFW) profile.",
-                            "Incorporate existing code for reading simulation data into a modular and scalable Python class for use in further research."],
-            "technologies": ["Python", "Matplotlib", "Numpy"],
+            "title":        "Knight Radiant",
+            "workplace":    "Roshar",
+            "time":         "4523",
+            "achievements": ["Protected Elhokar's armies from the Voidbringers.",
+                            "Defeeated Szeth, the assassin in white.",
+                            "Activated full powers of honorspren Syl."],
+            "technologies": ["Stormlight", "Spearmanship", "Bridges"],
             "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/DarkMatterHalos"
+                "title":    "Warcamp Records",
+                "url":      "https://www.example.com"
                 }],
-            "tags":         ["research", "data analysis", "open source", "experience"]
+            "tags":         ["shardblade", "hero", "windrunner"]
         },
         {
-            "title":        "Team Leader",
-            "workplace":    "Vanderbilt School of Engineering - Senior Design",
-            "time":         "Sep '15 - Present",
-            "achievements": ["Develop digital signal processing module in python using GNURadio for RTL software defined radios.",
-                            "Design a satellite tracking antenna using servo motors and 3D printed components.",
-                            "Program a real-time trajectory visualization and motor control interface in D3.js, Python, and C via a browser, local server, and Arduino Uno board."],
-            "technologies": ["Linux", "Raspberry Pi", "Arduino", "GNURadio", "Python", "HTML/CSS", "Javascript"],
+            "title":        "Captain of Bodyguards",
+            "workplace":    "Elhokar Kholin's detail",
+            "time":         "4522 - 4523",
+            "achievements": ["Fought off Szeth after his assassination attempt at the palace.",
+                            "Over saw bodyguard training with new recruits into brdge four.",
+                            "Honed abilities with stormlight."],
+            "technologies": ["Stormlight", "Windrunning"],
             "links":        [],
-            "tags":         ["experience"]
+            "tags":         ["protection"]
         },
         {
-            "title":        "Business Intelligence Intern",
-            "workplace":    "Schneider Electric",
-            "time":         "Jun '15 - Aug '15",
-            "achievements": ["Wrote SQL query backwards compatible with SQL Server 2005 to consolidate 40 million records into 1.5 million records with no data loss.",
-                            "Developed and documented a python module to resolve record timing conflicts in SQL joins. Integrated with main data workflow in Alteryx.",
-                            "Designed and scripted data visualizations in Domo to serve location specific content to sales managers all over continental US.",
-                            "Programmed a SQL procedure to take selective backups monthly that reduced backup size by 75%."],
-            "technologies": ["T-SQL", "Alteryx", "Domo", "Python"],
+            "title":        "Captain of Bodyguards",
+            "workplace":    "Dalinar Kholin's Command",
+            "time":         "4522",
+            "achievements": ["Trained in use of shardblades with Adolin Kholin.",
+                            "Protected Adolin Kholin in duel arranged by Sadeas",
+                            "Helped Shallan Deval in the chams by killing a Chasmfeind.",
+                            "Provided valuable advice to Dalinar on security."],
+            "technologies": ["Swordplay", "Stormlight"],
             "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/ResolveDateConflict"
+                "title":    "Scribes Account",
+                "url":      "https://www.example.com"
                 }],
-            "tags":         ["experience", "analytics"]
+            "tags":         []
         },
         {
-            "title":        "Student Helpdesk Assistant",
-            "workplace":    "Vanderbilt University IT",
-            "time":         "Aug '13 - Jun '15",
-            "achievements": ["Diagnosed and troubleshot computer, smartphone, and campus wide IT issues.",
-                            "Recovered $3000 worth of accidentally deleted data from hard drives.",
-                            "Assisted students in setting up course-specific applications on their computers."],
-            "technologies": ["Windows", "Mac OS X", "Linux"],
+            "title":        "Captain of Bridge Four",
+            "workplace":    "Sadeas' Warcamp",
+            "time":         "4521 - 4522",
+            "achievements": ["Devised new tactics to protect crew from Parshendi arrows.",
+                            "Trained men in use of weapons and strategy.",
+                            "Rescued Dalinar Kholin in battle against Eshonai"],
+            "technologies": ["Stormlight"],
             "links":        [],
-            "tags":         ["experience", "customer service", "consulting"]
-        },
-        {
-            "title":        "Research Intern",
-            "workplace":    "Vanderbilt University School of Engineering",
-            "time":         "Jun '14 - Aug '14",
-            "achievements": ["Studied sources of radiation induced errors and programmed an Altera DE2 FPGA board to test SRAM chips for soft errors after irradiation.",
-                            "Wrote documentation and designed schematics for researchers at the Institute of Space and Defense Electronics."],
-            "technologies": ["VHDL"],
-            "links":        [],
-            "tags":         ["experience", "research"]
-        },
-        {
-            "title":        "Instructor",
-            "workplace":    "Android Application Development Workshop - NUST, Pakistan",
-            "time":         "Jun '13",
-            "achievements": ["Proposed and organized a week-long workshop attended by 40 professionals and graduate and undergraduate students.",
-                            "Taught basic application development skills for Android using MIT AppInventor to attendees with diverse technical skillsets.",
-                            "Mentored teams for final day projects and provided one-on-one guidance."],
-            "technologies": ["MIT AppInventor"],
-            "links":        [{
-                "title":    "NUST.edu.pk",
-                "url":      "http://www.nust.edu.pk/INSTITUTIONS/Schools/SEECS/News/Pages/Workshop-on-Android-Programming.aspx"
-                }],
-            "tags":         ["experience", "teaching"]
+            "tags":         []
         }
     ],
 
     "projects":   [
         {
-            "title":        "TIL - Today I Learned",
-            "time":         "Feb '16 - Mar '16",
-            "blurb":        "Learn interesting tidbits from Reddit.",
-            "description":  "An android application that parses /r/TodayILearned on Reddit for interesting facts based on user preferences. It has day/night mode, sharing, and further reading options. All content is accessed after getting OAuth2 tokens. Non-UI operations are executed on background threads.",
+            "title":        "Escape Plan",
+            "time":         "4522",
+            "blurb":        "Making a run for it",
+            "description":  "A secret plan with members of bridge four to escape from Sadeas's camp. We trained in the chasms during spoil collection duties. We also collected supplies like spheres and weapons.",
             "technologies": ["Java", "Android", "OAuth2"],
             "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/TIL"
-                },
-                {
-                    "title":    "Google Play",
-                    "url":      "https://play.google.com/store/apps/details?id=me.iahmed.til"
-                    }],
-            "tags":         ["open source projects"]
-        },
-        {
-            "title":        "SatTrack",
-            "time":         "Sep '15 - Present",
-            "blurb":        "Tracking satellites in real time.",
-            "description":  "A simple, easy to use library for visualizing satellite paths, predicting future passes, and tracking satellite trajectories using servo motors. Developed for Institute for Space and Defense Electronics - Software Defined Radio (ISDE-SDR) project at Vanderbilt.",
-            "technologies": ["Python", "Javascript", "jQuery", "D3.js", "HTML/CSS", "Arduino"],
-            "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/SatTrack"
+                "title":    "Horneater's Story",
+                "url":      "https://www.example.com"
                 }],
-            "tags":         ["open source", "projects"]
-        },{
-            "title":        "PersonalizedGroupMail",
-            "time":         "Oct '15",
-            "blurb":        "Send personalized batch messages.",
-            "description":  "An easy to use class for sending out a batch email with personalized greetings to increase audience engagement. Recipient data can either be entered programmatically or imported from a csv file. Plain text and HTML formatted emails are supported. Made as a side project for my Resident Advisor duties.",
-            "technologies": ["Python"],
+            "tags":         ["secret project"]
+        },
+        {
+            "title":        "Escape Plan",
+            "time":         "4520",
+            "blurb":        "Freedom",
+            "description":  "Multiple escape attempts while being transported to the plains in a slave caravan. I gave up after being subdued multiple times.",
+            "technologies": [],
             "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/PersonalizedGroupMail"
+                "title":    "Syl's Recollection",
+                "url":      "https://www.example.com"
                 }],
-            "tags":         ["open source", "projects"]
-        },
-        {
-            "title":        "VandySays",
-            "time":         "Sep '15",
-            "blurb":        "Get tips for a better day.",
-            "description":  "A web app with Google Forms at the back end hosted on Github Pages. Intended to display news/tips uploaded by Resident Advisors to students. All entries come with an expiration date. Can be adapted for any Google Form.",
-            "technologies": ["Javascript", "jQuery","HTML/CSS"],
-            "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/VandySays"
-                },
-                {
-                    "title":    "GitHub Pages",
-                    "url":      "http://hazrmard.github.io/VandySays/"
-                    }],
-            "tags":         ["open source", "projects"]
-        },
-        {
-            "title":        "project:UNIVERSE",
-            "time":         "Mar '15 - Apr'15",
-            "blurb":        "Lots of alien spaceships.",
-            "description":  "Acronym for: Ultra Nice Implementation of Various Entities Roaming Space Existentially. An agent based model of population dynamics in the galaxy. It simulates 4 space faring civilizations each with individual characteristics exploring planets to accumulate resources. Variables tracked are resources, population, trade, technology, and wars.",
-            "technologies": ["NetLogo"],
-            "links":        [{
-                "title":    "Sourceforge",
-                "url":      "https://sourceforge.net/projects/abmuniverse/"
-                },
-                {
-                    "title":    "Documentation",
-                    "url":      "https://sourceforge.net/projects/abmuniverse/files/UNIVERSE.pdf/download"
-                    }],
-            "tags":         ["open source", "projects", "simulation", "physics"]
-        },
-        {
-            "title":        "WebWeb",
-            "time":         "Jul '15",
-            "blurb":        "Mapping links to a site.",
-            "description":  "A web app that uses Yahoo Query Language to parse web pages for hyperlinks. Parsed links are displayed in a dynamically created table.",
-            "technologies": ["jQuery", "HTML/CSS", "YQL"],
-            "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/WebWeb"
-                },
-                {
-                    "title":    "iahmed.me",
-                    "url":      "http://lab.iahmed.me/WebWeb"
-                    }],
-            "tags":         ["open source", "projects", "javascript"]
-        },
-        {
-            "title":        "eventbrite",
-            "time":         "Mar '15 - Feb '16'",
-            "blurb":        "Learning new web technologies.",
-            "description":  "A demonstrator for new web technologies that I learned using eventbrite.com's API: A choropleth of events in the US by state, and a Django app for searching and browsing events by category, location, and keywords.",
-            "technologies": ["D3.js", "HTML/CSS", "Django"],
-            "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/eventbrite"
-                },
-                {
-                    "title":    "iahmed.me",
-                    "url":      "http://iahmed.me/eventbrite"
-                },
-                {
-                    "title":    "Python Anywhere",
-                    "url":      "http://hazrmard.pythonanywhere.com"
-                    }],
-            "tags":         ["open source", "projects", "javascript", "visualization"]
-        },
-        {
-            "title":        "imgurPCA",
-            "time":         "Feb '15 - Present",
-            "blurb":        "Machine learning on imgur.com",
-            "description":  "Parsing comments on imgur.com for principal component analysis. Parsed comments are pre-processed for feature selection before being passed for analysis and later clustering.",
-            "technologies": ["Python", "Numpy"],
-            "links":        [{
-                "title":    "GitHub",
-                "url":      "https://github.com/hazrmard/imgurPCA"
-                }],
-            "tags":         ["open source", "projects"]
+            "tags":         ["tenacity"]
         }
     ],
 
     "skills":   [
         {
-            "title":        "Programming",
-            "skills":       ["C", "C++", "Python (Numpy, Django, Matplotlib)", "Java", "Android", "JavaScript (D3.js, AngularJS, jQuery)", "HTML", "CSS (Bootstrap)", "Git"]
+            "title":        "Warfare",
+            "skills":       ["Strategy", "Bridge Transport", "VIP Security", "Shardblades", "Leadership"]
         },
         {
-            "title":        "Engineering",
-            "skills":       ["VHDL", "MatLab", "Mathematica", "Cadence", "LTSpice"]
+            "title":        "Miscalleanous",
+            "skills":       ["Medicine", "Quick Healing"]
         }
     ],
 
     "extracurriculars": [
         {
-            "title":        "Resident Advisor",
-            "time":         "Aug '15 - Present",
-            "description":  ["Oversee administrative floor activities in Lewis Hall.",
-                            "Support 60 residents with academic and personal issues.",
-                            "Collaborate with other Resident Advisors to create a friendly atmosphere for student residents.",
-                            "Arrange recreational and educational activities with students."],
+            "title":        "Talking with Syl",
+            "time":         "All the time",
+            "description":  ["I like talking with syl because she is good company.",
+                            "She is a quick learner. She an even make jokes now.",
+                            "We don't have to speak. We can hear each other's thoughts."],
             "details":      "",
-            "links":        [],
+            "links":        [{
+                "title":    "Log of Topics",
+                "url":      "http://www.example.com"
+                }],
             "tags":         []
         },
         {
-            "title":        "Mentor and Technical Specialist - Vanderbilt Design Studio",
-            "time":         "Jan '15 - Present",
-            "description":  ["Maintain and repair 3D printers, electronics, and tools at the Design Studio.",
-                            "Assist users in design process with Makerbot Desktop and Autodesk 123D Design."],
-            "details":      "",
-            "links":        [],
-            "tags":         []
-        },
-        {
-            "title":        "AcFee Subcommittee for Cultural Organizations",
-            "time":         "Jan '15 - May '15",
-            "description":  ["Reviewed campus organizations’ annual applications for funding.",
-                            "Allocated $218,000 from university funds to 43 organizations based on performance analyses."],
-            "details":      "",
-            "links":        [],
-            "tags":         []
-        },
-        {
-            "title":        "Vanderbilt Student Volunteers for Science",
-            "time":         "Jan '14 - May '14",
-            "description":  ["Received training for teaching science subjects to middle school students",
-                            "Taught robotics using Lego Mindstorms to 8th graders in Nashville over several sessions."],
-            "details":      "",
-            "links":        [],
+            "title":        "Practising Abilities",
+            "time":         "Occasionally",
+            "description":  [],
+            "details":      "I like to hone by skills by regularly practicing. Things I practise include swordsmanship, windrunning, worrying about my crew.",
+            "links":        [{
+                "title":    "Camp Records",
+                "url":      "http://www.example.com"
+                }],
             "tags":         []
         }
     ],
 
     "honors":       [
         {
-            "title":        "Dean's List",
-            "details":      "Fall '12, '14, '15, Spring '13, '14, '15",
-            "tags":         ["honors"]
+            "title":        "Killed Shardbearer",
+            "details":      "Brightlord Amaram's army - 4519",
+            "tags":         ["victory"]
         },
         {
-            "title":        "Honorable Mention",
-            "details":      "International Physics Olympiad '11",
-            "tags":         ["honors"]
-        },
-        {
-            "title":        "Sigma Pi Sigma",
-            "details":      "Society of Physics Students",
-            "tags":         ["honors"]
-        }
-    ]
+            "title":        "Activated Honorspren",
+            "details":      "Battle with Szeth, Truthless of Shinovar",
+            "tags":         ["victory"]
+        }]
 }
