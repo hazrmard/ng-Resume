@@ -7,7 +7,7 @@ An interactive, mobile-friendly resume app in AngularJS
 ##Usage
 For quick set-up, the only file you need to change is `resume.json`. The file provided illustrates the structure of the `JSON` object in reasonable detail.  
 For advanced setup, you can modify `resume.css` to change the appearance of the web page. You can also modify directives in `resume.html` to decide how and which content is displayed. In addition, rearranging `section` class `divs` will reorder different parts of the resume.  
-You can see the app live in action [here](http://hazrmard.github.io/ng-Resume).  
+**You can see the app live in action [here](http://hazrmard.github.io/ng-Resume).**  
   
 ##Testing locally
 Since the app uses http requests to get the `json` file, you'll need to set up a local server to view and test the app locally. You can set up a simple server like so:  
