@@ -13,7 +13,7 @@ For advanced setup, you can modify `resume.css` to change the appearance of the 
 Since the app uses http requests to get the `json` file, you'll need to set up a local server to view and test the app locally. You can set up a simple server like so:  
 1. Install Python  
 2. Browse to location of cloned repository  
-3. Type in command line:  `python -m SimpleHTTPServer`  
+3. Type in command line:  `python -m http.server`  
 4. Open browser to `http://localhost:8000`  
   
 If the computer and a smartphone are connected to the same wireless network, you can view the app on your mobile phone by going to `http://<YOUR_IP_ADDRESS>:8000`. On Windows you can look up your ip address by using `ipconfig` in command line.
